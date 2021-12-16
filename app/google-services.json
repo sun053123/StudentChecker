@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "828217859919",
+    "firebase_url": "https://aiproject-ab856.firebaseio.com",
+    "project_id": "aiproject-ab856",
+    "storage_bucket": "aiproject-ab856.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828217859919:android:d02fb3c8265a43ef7faf3a",
+        "android_client_info": {
+          "package_name": "com.dis.studentcheckerkotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828217859919-7q64hl1mfnobclqg0f735ib2t9sgj7mh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFZddyna0MXRAAraE4PJ34fMP_oPhpMu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828217859919-7q64hl1mfnobclqg0f735ib2t9sgj7mh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llay"
+        android:layout_alignEnd="@+id/llay"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="232dp"
+        android:text="Result : "
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@+id/llay">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/llay"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="397dp"
+            android:layout_height="295dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/verify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llay"
+        android:layout_marginTop="111dp"
+        android:layout_marginBottom="50dp"
+        android:background="@color/colorPrimary"
+        android:text="verify"
+        android:textColor="#000" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="91dp"
+        android:layout_height="89dp"
+        android:layout_above="@+id/llay"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="165dp"
+        android:layout_marginBottom="63dp"
+        ></ImageView>
+
+</RelativeLayout>
